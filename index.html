@@ -5,19 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>არქიტექტურა და ათასი ყლეობა</title>
+    <title>არქიტექტურა და დიზაინი</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet" />
 </head>
 
 <body>
+
+    <div class="spinner-container">
+        <div class="circles">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    
     <div class="container">
         <div class="hamburger-menu">
             <div class="line line-1"></div>
             <div class="line line-2"></div>
             <div class="line line-3"></div>
-            <span>Close</span>
+            <span>დახურვა</span>
         </div>
         <header class="header">
             <div class="img-wrapper">
@@ -25,8 +39,8 @@
             </div>
             <div class="banner">
                 <h1>არქიტექტურა & ინტერიერის დიზაინი</h1>
-                <p>ჩვენ დაგიმზადებთ, ათას ყლეობას შეღავათიან ფასებში</p>
-                <button>აღმოაჩინე ახლავე</button>
+                <p>ჩვენ დაგიმზადებთ სასურველ დიზაინს, შეღავათიან ფასებში</p>
+                <button>აღმოაჩინე სიახლე</button>
             </div>
         </header>
 
@@ -92,14 +106,14 @@
                 <div class="service">
                     <div class="service-header">
                         <i class="fas fa-ruler-combined"></i>
-                        <h3>დაპლანვაი</h3>
+                        <h3>დაგეგმვა</h3>
                     </div>
                     <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, incidunt. Minima cumque quaerat aut officiis rem soluta? Tempore in dolore odio deleniti corporis exercitationem veniam.</p>
                 </div>
                 <div class="service">
                     <div class="service-header">
                         <i class="far fa-building"></i>
-                        <h3>განადგურებაი</h3>
+                        <h3>დანგრევა</h3>
                     </div>
                     <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, incidunt. Minima cumque quaerat aut officiis rem soluta? Tempore in dolore odio deleniti corporis exercitationem veniam.</p>
                 </div>
@@ -119,10 +133,10 @@
                         <img src="images/person-1.jpg" alt="1">
                     </div>
                     <div class="card-info">
-                        <h2>john smith</h2>
-                        <h3>CEO</h3>
+                        <h2>გოჩა ნოზაძე</h2>
+                        <h3>დირექტორი</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, tenetur.</p>
-                        <button>Read More</button>
+                        <button>წაიკითხე მეტი</button>
                     </div>
                 </div>
                 <div class="card" data-tilt>
@@ -130,10 +144,10 @@
                         <img src="images/person-2.jpg" alt="2">
                     </div>
                     <div class="card-info">
-                        <h2>Ann Brown</h2>
-                        <h3>Designer</h3>
+                        <h2>ანა მიქელაძე</h2>
+                        <h3>დიზაინერი</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, tenetur.</p>
-                        <button>Read More</button>
+                        <button>წაიკითხე მეტი</button>
                     </div>
                 </div>
                 <div class="card" data-tilt>
@@ -141,10 +155,10 @@
                         <img src="images/person-3.jpg" alt="3">
                     </div>
                     <div class="card-info">
-                        <h2>Mary Doe</h2>
-                        <h3>Architect</h3>
+                        <h2>მარი ბერიძე</h2>
+                        <h3>არქიტექტორი</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, tenetur.</p>
-                        <button>Read More</button>
+                        <button>წაიკითხე მეტი</button>
                     </div>
                 </div>
             </div>
@@ -154,21 +168,21 @@
             <div class="contact-wrapper">
                 <div class="contact-left"></div>
                 <div class="contact-right">
-                    <h1 class="contact-heading">Contact</h1>
+                    <h1 class="contact-heading">კონტაქტი</h1>
                     <form>
                         <div class="input-group">
                             <input type="text" class="field">
-                            <label class="input-label">Full Name</label>
+                            <label class="input-label">სრული სახელი</label>
                         </div>
                         <div class="input-group">
                             <input type="email" class="field">
-                            <label class="input-label">Email</label>
+                            <label class="input-label">ემაილი</label>
                         </div>
                         <div class="input-group">
                             <textarea class="field"></textarea>
-                            <label class="message">Message</label>
+                            <label class="message">შეტყობინება</label>
                         </div>
-                        <input type="submit" class="submit-btn" value="Submit">
+                        <input type="submit" class="submit-btn" value="გაგზავნა">
                     </form>
                 </div>
             </div>
@@ -177,7 +191,7 @@
         <footer class="footer">
             <div class="footer-content">
                 <p class="copyright">
-                    Copyright &copy; 2021, 04kami13 - All Rights Reserved
+                    Copyright &copy; 2021, 04kami13 - ყველა უფლება დაცულია  
                 </p>
                 <div class="social-list">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -186,11 +200,10 @@
                 </div>
             </div>
         </footer>
+        <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
-
-    <a href="#" class="scroll-btn">
-        <i class="fas fa-arrow-up"></i>
-    </a>
 
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> data-tilt
