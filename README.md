@@ -9,3 +9,5 @@ youtube channel name: Code And Create
 I just follow his instruction.
 
 04kami13
+
+project preview: https://04kami13.github.io/House/
